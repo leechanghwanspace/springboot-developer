@@ -23,3 +23,5 @@
 >> - AWS에 프로젝트 배포하기<br>
 >> - CI/CD 도입하기<br>
 ---
+
+**[  📚 [SpringBoot3 정리하기]](https://resilient-kingfisher-b90.notion.site/SpringBoot3-d3247526ab444242bce61240cbd4484f?pvs=4)** <br>
