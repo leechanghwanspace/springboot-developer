@@ -1,4 +1,4 @@
-## 📗 SpringBoot3 backend_developer
+## 📗 springboot3 backend developer
 
 **[[스프링 부트 3 백엔드 개발자 되기 (자바편)]](https://github.com/shinsunyoung/springboot-developer) <br>
 📖 혼자서 공부하면서 기록하는 레포 📖**
@@ -25,3 +25,5 @@
 ---
 
 **[  📚 [SpringBoot3 정리하기]](https://resilient-kingfisher-b90.notion.site/SpringBoot3-d3247526ab444242bce61240cbd4484f?pvs=4)** <br>
+
+---
