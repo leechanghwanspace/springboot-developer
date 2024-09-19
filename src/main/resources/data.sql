@@ -1,3 +1,3 @@
-INSERT INTO member (id, name) VALUES (1, '이창환')
-INSERT INTO member (id, name) VALUES (2, '창환이')
-INSERT INTO member (id, name) VALUES (3, '환창이')
+INSERT INTO article (title, content) VALUES ('제목1', '내용1')
+INSERT INTO article (title, content) VALUES ('제목2', '내용2')
+INSERT INTO article (title, content) VALUES ('제목3', '내용3')
