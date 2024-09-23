@@ -42,7 +42,7 @@ public class BlogApiController {
                 .body(articles);
     }
 
-    // /api/article/{id} GET 요청이 오면 블로그 글을 조회하기 위해
+    // /api/article.html/{id} GET 요청이 오면 블로그 글을 조회하기 위해
     // 매핑할 findArticle() 메서드 추가
     @GetMapping("/api/articles/{id}")
     public ResponseEntity<ArticleResponse> findArticle(@PathVariable long id) {
