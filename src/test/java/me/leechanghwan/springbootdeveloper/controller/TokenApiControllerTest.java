@@ -1,7 +1,6 @@
 package me.leechanghwan.springbootdeveloper.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-
 import me.leechanghwan.springbootdeveloper.config.jwt.JwtFactory;
 import me.leechanghwan.springbootdeveloper.config.jwt.JwtProperties;
 import me.leechanghwan.springbootdeveloper.domain.RefreshToken;
@@ -89,4 +88,5 @@ class TokenApiControllerTest {
                 .andExpect(status().isCreated())
                 .andExpect(jsonPath("$.accessToken").isNotEmpty());
     }
+
 }

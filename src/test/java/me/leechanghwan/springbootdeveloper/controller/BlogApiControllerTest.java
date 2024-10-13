@@ -1,34 +1,6 @@
 package me.leechanghwan.springbootdeveloper.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-
-import me.leechanghwan.springbootdeveloper.domain.Article;
-import me.leechanghwan.springbootdeveloper.dto.AddArticleRequest;
-import me.leechanghwan.springbootdeveloper.dto.UpdateArticleRequest;
-import me.leechanghwan.springbootdeveloper.repository.BlogRepository;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.http.MediaType;
-import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.ResultActions;
-import org.springframework.test.web.servlet.setup.MockMvcBuilders;
-import org.springframework.web.context.WebApplicationContext;
-
-import java.util.List;
-
-import static org.assertj.core.api.Assertions.assertThat;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.delete;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.put;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
-
-import com.fasterxml.jackson.databind.ObjectMapper;
 import me.leechanghwan.springbootdeveloper.domain.Article;
 import me.leechanghwan.springbootdeveloper.domain.User;
 import me.leechanghwan.springbootdeveloper.dto.AddArticleRequest;
